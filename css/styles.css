@@ -1,5 +1,97 @@
 * {
-    box-sizing: border-box;
-    margin: 5px;
-    padding: 5px;
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 5px;
 }
+
+body {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.container {
+ /*  display: block; */
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+.containerImageProfile {
+  display: block;
+  padding: 0;
+  margin: 2rem 4rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+#nameHeader {
+font-size: 2.5rem;
+font-weight: bolder;
+padding: 2rem;
+}
+
+li a {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: bolder;
+  background-color: white;
+  color: black;
+}
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+.containerProject {
+  background-color: white;
+  color: black;
+  margin-top: 2rem;
+}
+
+.paragraphPresentation {
+  display: block;
+  margin: 0 1rem;
+}
+
+address span {
+  display: inline-block;
+}
+address span a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+}
+footer span {
+    margin-bottom: 1.2rem;
+}
+
+footer span a {
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+}
+
+#studentName {
+  float: left;
+}
+
+#backToTop {
+  float: right;
+}
+
+hr {
+  margin: 0 1rem;
+  padding: 0;
+}
+/* .containerContact {
+  border: solid 2px white;
+} */

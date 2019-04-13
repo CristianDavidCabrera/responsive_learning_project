@@ -7,37 +7,35 @@
     <meta name="description" content="Learning Project" />
     <meta name="keywords" content="HTML,CSS, RWD" />
     <meta name="author" content="Cristian David" />
-    <title>Project 2 - ResponsivePage</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
     <link rel="stylesheet" href="css/styles.css" />
+    <title>Project 2 - ResponsivePage</title>
   </head>
-  <body>
-    <header>
-      <h1>Cristian David</h1>
+  <body class="container">
+    <header >
+      <h1 id="nameHeader">Cristian David</h1>
       <nav>
-        <ul>
+        <ul >
           <li><a href="#">HOME</a></li>
           <li><a href="#">PORTFOLIO</a></li>
           <li><a href="#">CONTACT</a></li>
         </ul>
       </nav>
-      <div>
+      <div class="containerImageProfile">
         <img src="images/superheroes2.png" alt="profile image" />
       </div>
-      <p>
+      <p class="paragraphPresentation">
         Hi! I'm a front-end developer who loves responsive design and css. I
         recently finished learning web development at 20h-talent and I am
-        excited to put all my skills to use! Using lorem ipsum to fill lines of
-        this paragraph: Lorem, ipsum dolor sit amet consectetur adipisicing
-        elit. Illum necessitatibus quaerat ea laboriosam eveniet! Iusto quidem,
-        quisquam adipisci necessitatibus, fugit quasi dolor aliquid cumque
-        quaerat accusamus ipsum eum doloribus recusandae!
+        excited to put all my skills to use!
       </p>
     </header>
     <main>
       <div>
         <h2>PORTFOLIO</h2>
 
-        <div>
+        <div class="containerProject">
           <img src="images/portfolio-1.png" alt="marketing page" />
           <h3>Marketing Page</h3>
           <p>
@@ -46,7 +44,7 @@
           </p>
         </div>
 
-        <div>
+        <div class="containerProject">
           <img src="images/portfolio-2.png" alt="search page" />
           <h3>Search Page</h3>
           <p>
@@ -55,7 +53,7 @@
           </p>
         </div>
 
-        <div>
+        <div class="containerProject">
           <img src="images/portfolio-3.png" alt="Travel App" />
           <h3>Travel App</h3>
           <p>
@@ -64,7 +62,7 @@
           </p>
         </div>
 
-        <div>
+        <div class="containerProject">
           <img src="images/portfolio-6.png" alt="Map of Favorite Spots" />
           <h3>Map of Favorite Spots</h3>
           <p>
@@ -73,7 +71,7 @@
           </p>
         </div>
 
-        <div>
+        <div class="containerProject">
           <img src="images/portfolio-5.png" alt="Photo Gallery" />
           <h3>Photo Gallery</h3>
           <p>
@@ -82,7 +80,7 @@
           </p>
         </div>
 
-        <div>
+        <div class="containerProject">
           <img src="images/portfolio-4.png" alt="Calculator" />
           <h3>Calculator</h3>
           <p>
@@ -91,7 +89,8 @@
           </p>
         </div>
       </div>
-      <div>
+       <div>
+        <div class="containerContact">
           <h2>CONTACT</h2>
           <p>
             If you're interested in chatting or 
@@ -99,16 +98,16 @@
             I'd love to hear from you!
            </p>
            <address>
-               <span>Phone +1 (111)555-1234</span>
-               <span>Email <a href="mailto:email@gmail.com">email@yoursite.com</a></span>
+               <span>Phone: +1 (111)555-1234</span>
+               <span>Email: <a href="mailto:email@gmail.com">email@yoursite.com</a></span>
            </address>
+        </div>
       </div>
     </main>
+    <hr>
     <footer>
-        <ul>
-            <li><a href="#">Cristian David</a></li>
-            <li><a href="#">BACK TO TOP</a></li>
-        </ul>
+        <span id="studentName"><a href="#nameHeader">Cristian David</a></span>
+        <span id="backToTop"><a href="#">BACK TO TOP</a></span>
     </footer>
   </body>
 </html>
