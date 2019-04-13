@@ -13,12 +13,12 @@ body {
 }
 
 .container {
- /*  display: block; */
   background-color: black;
   color: white;
   padding: 0;
   margin: 0;
 }
+
 .containerImageProfile {
   display: block;
   padding: 0;
@@ -46,9 +46,14 @@ li a {
   background-color: white;
   color: black;
 }
+
 ul {
   list-style: none;
   width: 100%;
+}
+
+.paragraphPresentation {
+  margin: 0 1rem;
 }
 
 .containerProject {
@@ -57,19 +62,21 @@ ul {
   margin-top: 2rem;
 }
 
-.paragraphPresentation {
-  display: block;
-  margin: 0 1rem;
-}
-
 address span {
   display: inline-block;
 }
+
 address span a {
   font-weight: bolder;
   text-decoration: none;
   color: white;
 }
+
+hr {
+  margin: 0 1rem;
+  padding: 0;
+}
+
 footer span {
     margin-bottom: 1.2rem;
 }
@@ -88,10 +95,6 @@ footer span a {
   float: right;
 }
 
-hr {
-  margin: 0 1rem;
-  padding: 0;
-}
 /* .containerContact {
   border: solid 2px white;
 } */
