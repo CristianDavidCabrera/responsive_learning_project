@@ -12,14 +12,14 @@ body {
   text-align: center;
 }
 
-.container {
+.body-container {
   background-color: black;
   color: white;
   padding: 0;
   margin: 0;
 }
 
-.containerImageProfile {
+.container-image-profile {
   display: block;
   padding: 0;
   margin: 2rem 4rem;
@@ -32,10 +32,9 @@ img {
   margin: 0;
 }
 
-#nameHeader {
-font-size: 2.5rem;
-font-weight: bolder;
-padding: 2rem;
+#name-header {
+  font-size: 1.8rem;
+  font-weight: bolder;
 }
 
 li a {
@@ -52,11 +51,11 @@ ul {
   width: 100%;
 }
 
-.paragraphPresentation {
+.presentation-paragraph {
   margin: 0 1rem;
 }
 
-.containerProject {
+.container-projects {
   background-color: white;
   color: black;
   margin-top: 2rem;
@@ -87,14 +86,20 @@ footer span a {
   text-decoration: none;
 }
 
-#studentName {
+.footer-phone {
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+}
+
+#footer-student-name {
   float: left;
+  padding: 0;
+  margin: 0;
 }
 
-#backToTop {
+#footer-back-top {
   float: right;
+  padding: 0;
+  margin: 0;
 }
-
-/* .containerContact {
-  border: solid 2px white;
-} */
