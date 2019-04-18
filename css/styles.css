@@ -71,11 +71,13 @@ img {
   color: white;
 }
 
-address span {
+#phone,
+#email {
   display: inline-block;
 }
 
-address span a {
+#phone a,
+#email a {
   font-weight: bolder;
   text-decoration: none;
   color: white;
@@ -89,11 +91,6 @@ hr {
 .navigation-footer {
   display: none;
 }
-
-/* footer span {
-  margin-bottom: 1.2rem;
-  padding: 5px 0 ;
-} */
 
 footer span a,
 .footer-phone {
@@ -112,6 +109,14 @@ footer span a,
   float: right;
   padding: 0;
   margin: 0;
+}
+
+#footer-student-name a {
+  margin: auto 0;
+}
+
+#footer-back-top a{
+margin: auto 0;
 }
 
 .clearfix::after {
@@ -159,9 +164,17 @@ footer span a,
     text-justify: initial;
     text-align: justify;
   }
+
+  #portfolio,
+  #contact {
+    margin: 2rem;
+    font-size: 1.2;
+    font-weight: bolder;
+  }
   .container-projects {
     display: inline-block;
     vertical-align: top;
+    height: auto;
     width: 40%;
     margin: 15px;
   }

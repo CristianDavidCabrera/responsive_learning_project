@@ -16,13 +16,14 @@
   <body class="body-container">
     <header >
       <h1 id="name-header">Cristian David</h1>
-      <nav class="navigation-header">
-        <ul>
-          <li><a href="#" class="navigation-header">HOME</a></li>
-          <li><a href="#portfolio" class="navigation-header">PORTFOLIO</a></li>
-          <li><a href="#contact" class="navigation-header">CONTACT</a></li>
+      <nav class="navigation-header navigation-header--desktop ">
+        <ul class="">
+          <li><a href="#" class="navigation-header--desktop__home navigation-header">HOME</a></li>
+          <li><a href="#portfolio" class="navigation-header--desktop__portfolio navigation-header">PORTFOLIO</a></li>
+          <li><a href="#contact" class="navigation-header--desktop__contact navigation-header">CONTACT</a></li>
         </ul>
       </nav>
+      <div class="presentation">
         <div class="container-image-profile">
           <img src="images/responsive-layout-profile.png" alt="profile image" />
         </div>
@@ -31,6 +32,7 @@
           recently finished learning web development at 20h-talent and I am
           excited to put all my skills to use!
         </p>
+      </div>
     </header>
     <div class="clearfix"></div>
     <main>
@@ -98,7 +100,7 @@
             I'd love to hear from you!
            </p>
            <address class="phone-and-email">
-               <span id="phone">Phone <tag class="footer-phone">+1(111)555-1234</tag></span>
+               <span id="phone">Phone <span class="footer-phone">+1(111)555-1234</span></span>
                <span id="email">Email<a href="mailto:email@gmail.com">email@yoursite.com</a></span>
            </address>
         </div>
@@ -109,14 +111,15 @@
     <footer>
       <div class="hidden">
         <span id="footer-student-name"><a href="#name-header">Cristian David</a></span>
-        <span id="footer-back-top"><a href="#">BACK TO TOP</a></span>
+        <span id="footer-back-top"><a href="#name-header">BACK TO TOP</a></span>
       </div>
       <nav class="navigation-footer">
         <ul>
           <li class="footer-links--left"><a href="#name-header" class="navigation-footer">Cristian David</a></li>
           <li class="footer-links--right"><a href="#home" class="navigation-footer">HOME</a></li>
           <li class="footer-links--right"><a href="#portfolio" class="navigation-footer">PORTFOLIO</a></li>
-          <li class="footer-links--right"><a href="#contact" class="navigation-footer">CONTACT</a></li>          </ul>
+          <li class="footer-links--right"><a href="#contact" class="navigation-footer">CONTACT</a></li>          
+        </ul>
       </nav>
     </footer>
   </body>
