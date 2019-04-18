@@ -16,26 +16,25 @@
   <body class="body-container">
     <header >
       <h1 id="name-header">Cristian David</h1>
-      <nav>
-        <ul >
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">CONTACT</a></li>
+      <nav class="navigation-header">
+        <ul>
+          <li><a href="#" class="navigation-header">HOME</a></li>
+          <li><a href="#portfolio" class="navigation-header">PORTFOLIO</a></li>
+          <li><a href="#contact" class="navigation-header">CONTACT</a></li>
         </ul>
       </nav>
-      <div class="container-image-profile ">
-        <img src="images/responsive-layout-profile.png" alt="profile image" />
-      </div>
-      <p class="presentation-paragraph">
-        Hi! I'm a front-end developer who loves responsive design and css. I
-        recently finished learning web development at 20h-talent and I am
-        excited to put all my skills to use!
-      </p>
+        <div class="container-image-profile">
+          <img src="images/responsive-layout-profile.png" alt="profile image" />
+        </div>
+        <p class="presentation-paragraph">
+          Hi! I'm a front-end developer who loves responsive design and css. I
+          recently finished learning web development at 20h-talent and I am
+          excited to put all my skills to use!
+        </p>
     </header>
+    <div class="clearfix"></div>
     <main>
-      <div>
-        <h2>PORTFOLIO</h2>
-
+        <h2 id="portfolio">PORTFOLIO</h2>
         <div class="container-projects">
           <img src="images/portfolio-1.png" alt="marketing page" />
           <h3>Marketing Page</h3>
@@ -89,26 +88,36 @@
             button and get the result.
           </p>
         </div>
-      </div>
+     
        <div>
-        <div class="container-projects">
-          <h2>CONTACT</h2>
+        <div class="container-projects contact-info">
+          <h2 id="contact">CONTACT</h2>
           <p>
             If you're interested in chatting or 
             want more information about what I've been working on, 
             I'd love to hear from you!
            </p>
-           <address>
-               <span>Phone <span class="footer-phone">+1(111)555-1234</span></span>
-               <span>Email<a href="mailto:email@gmail.com">email@yoursite.com</a></span>
+           <address class="phone-and-email">
+               <span id="phone">Phone <tag class="footer-phone">+1(111)555-1234</tag></span>
+               <span id="email">Email<a href="mailto:email@gmail.com">email@yoursite.com</a></span>
            </address>
         </div>
       </div>
     </main>
     <hr>
+    <div class="clearfix"></div>
     <footer>
+      <div class="hidden">
         <span id="footer-student-name"><a href="#name-header">Cristian David</a></span>
         <span id="footer-back-top"><a href="#">BACK TO TOP</a></span>
+      </div>
+      <nav class="navigation-footer">
+        <ul>
+          <li class="footer-links--left"><a href="#name-header" class="navigation-footer">Cristian David</a></li>
+          <li class="footer-links--right"><a href="#home" class="navigation-footer">HOME</a></li>
+          <li class="footer-links--right"><a href="#portfolio" class="navigation-footer">PORTFOLIO</a></li>
+          <li class="footer-links--right"><a href="#contact" class="navigation-footer">CONTACT</a></li>          </ul>
+      </nav>
     </footer>
   </body>
 </html>

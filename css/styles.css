@@ -1,3 +1,7 @@
+/*************************/
+/*     Mobile design     */
+/*************************/
+
 * {
   box-sizing: border-box;
   margin: 5px;
@@ -15,19 +19,6 @@ body {
 .body-container {
   background-color: black;
   color: white;
-  padding: 0;
-  margin: 0;
-}
-
-.container-image-profile {
-  display: block;
-  padding: 0;
-  margin: 2rem 4rem;
-}
-
-img {
-  width: 100%;
-  height: auto;
   padding: 0;
   margin: 0;
 }
@@ -54,11 +45,30 @@ ul {
 .presentation-paragraph {
   margin: 0 1rem;
 }
+.container-image-profile {
+  display: block;
+  padding: 0;
+  margin: 2rem 4rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
 
 .container-projects {
   background-color: white;
   color: black;
   margin-top: 2rem;
+}
+.contact-info {
+  display: block;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: white;
 }
 
 address span {
@@ -76,16 +86,16 @@ hr {
   padding: 0;
 }
 
-footer span {
-    margin-bottom: 1.2rem;
+.navigation-footer {
+  display: none;
 }
 
-footer span a {
-  font-weight: bolder;
-  color: white;
-  text-decoration: none;
-}
+/* footer span {
+  margin-bottom: 1.2rem;
+  padding: 5px 0 ;
+} */
 
+footer span a,
 .footer-phone {
   font-weight: bolder;
   color: white;
@@ -102,4 +112,102 @@ footer span a {
   float: right;
   padding: 0;
   margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*************************/
+/*     Tablet design     */
+/*************************/
+
+@media (min-width: 426px) {
+  * {
+    margin: auto;
+  }
+  /*header*/
+  .body-container
+   {
+    background-color: black;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .navigation-header {
+    display: inline;
+    background-color: black;
+    color: white;
+  }
+  ul li {
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .container-image-profile {
+    float: right;
+    width: 30%;
+  }
+
+  .presentation-paragraph {
+    margin-left: 3rem;
+    width: auto;
+    text-justify: initial;
+    text-align: justify;
+  }
+  .container-projects {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin: 15px;
+  }
+  .contact-info {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  .contact-info p {
+    width: 80%;
+  }
+  .contact-info span {
+    width: 100%;
+  }
+  .phone-and-email {
+    margin: 2rem auto;
+  }
+
+  .hidden {
+    display: none;
+  }
+  .navigation-footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+  }
+
+  footer nav ul li {
+    display: inline-block;
+  }
+
+  .footer-links--right {
+    float: right;
+  }
+  .footer-links--left {
+    float: left;
+  }
+
+}
+
+/*************************/
+/*     Desktop design    */
+/*************************/
+
+@media (min-width: 1024px) {
 }
