@@ -23,6 +23,7 @@ body {
 #name-header {
   font-size: 1.8rem;
   font-weight: bolder;
+  border-radius: 50%;
 }
 li a {
   display: block;
@@ -32,6 +33,7 @@ li a {
   background-color: white;
   color: black;
 }
+
 ul {
   list-style: none;
   width: 100%;
@@ -54,6 +56,10 @@ img {
   background-color: white;
   color: black;
   margin-top: 2rem;
+  border-radius: 6px;
+}
+.container-projects:hover {
+  border: solid 5px rgb(102, 248, 82) ;
 }
 .contact-info {
   display: block;
@@ -61,6 +67,7 @@ img {
   width: 100%;
   background-color: black;
   color: white;
+  margin-top: 2rem;
 }
 #phone,
 #email {
