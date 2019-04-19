@@ -152,7 +152,7 @@ margin: auto 0;
   .container-projects {
     display: inline-block;
     vertical-align: top;
-    height: auto;
+    height: 330px;
     width: 40%;
     margin: 15px;
   }
@@ -219,6 +219,7 @@ margin: auto 0;
   }
   .container-projects {
     width: 30%;
+    height: 370px;
   }
   .contact-info {
     width: 100%;
