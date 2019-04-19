@@ -7,7 +7,6 @@
   margin: 5px;
   padding: 5px;
 }
-
 body {
   display: block;
   font-family: "Montserrat", sans-serif;
@@ -15,19 +14,16 @@ body {
   line-height: 1.5rem;
   text-align: center;
 }
-
 .body-container {
   background-color: black;
   color: white;
   padding: 0;
   margin: 0;
 }
-
 #name-header {
   font-size: 1.8rem;
   font-weight: bolder;
 }
-
 li a {
   display: block;
   box-sizing: border-box;
@@ -36,28 +32,24 @@ li a {
   background-color: white;
   color: black;
 }
-
 ul {
   list-style: none;
   width: 100%;
 }
-
 .presentation-paragraph {
   margin: 0 1rem;
 }
 .container-image-profile {
   display: block;
   padding: 0;
-  margin: 2rem 4rem;
+  margin: 2rem;
 }
-
 img {
   width: 100%;
   height: auto;
   padding: 0;
   margin: 0;
 }
-
 .container-projects {
   background-color: white;
   color: black;
@@ -70,55 +62,45 @@ img {
   background-color: black;
   color: white;
 }
-
 #phone,
 #email {
   display: inline-block;
 }
-
 #phone a,
 #email a {
   font-weight: bolder;
   text-decoration: none;
   color: white;
 }
-
 hr {
   margin: 0 1rem;
   padding: 0;
 }
-
 .navigation-footer {
   display: none;
 }
-
 footer span a,
 .footer-phone {
   font-weight: bolder;
   color: white;
   text-decoration: none;
 }
-
 #footer-student-name {
   float: left;
   padding: 0;
   margin: 0;
 }
-
 #footer-back-top {
   float: right;
   padding: 0;
   margin: 0;
 }
-
 #footer-student-name a {
   margin: auto 0;
 }
-
 #footer-back-top a{
 margin: auto 0;
 }
-
 .clearfix::after {
   content: "";
   display: table;
@@ -129,11 +111,10 @@ margin: auto 0;
 /*     Tablet design     */
 /*************************/
 
-@media (min-width: 426px) {
+@media (min-width:768px) {
   * {
     margin: auto;
   }
-  /*header*/
   .body-container
    {
     background-color: black;
@@ -141,7 +122,6 @@ margin: auto 0;
     width: 100%;
     height: auto;
   }
-
   .navigation-header {
     display: inline;
     background-color: black;
@@ -152,19 +132,17 @@ margin: auto 0;
     text-align: center;
     font-weight: bold;
   }
-
   .container-image-profile {
     float: right;
     width: 30%;
+    margin: 0 3rem;
   }
-
   .presentation-paragraph {
     margin-left: 3rem;
     width: auto;
     text-justify: initial;
     text-align: justify;
   }
-
   #portfolio,
   #contact {
     margin: 2rem;
@@ -194,7 +172,6 @@ margin: auto 0;
   .phone-and-email {
     margin: 2rem auto;
   }
-
   .hidden {
     display: none;
   }
@@ -204,11 +181,9 @@ margin: auto 0;
     background-color: black;
     color: white;
   }
-
   footer nav ul li {
     display: inline-block;
   }
-
   .footer-links--right {
     float: right;
   }
@@ -223,4 +198,30 @@ margin: auto 0;
 /*************************/
 
 @media (min-width: 1024px) {
+
+  #name-header {
+    float: left;
+    margin-left: 1rem;
+  }
+  .navigation-header--desktop  {
+    float: right;
+    margin-top: 0.8rem;
+  }
+  .presentation-paragraph{
+    margin: 1rem;
+  }
+  .container-image-profile {
+    margin-left: 4rem;
+    margin-right: 15px;
+  }
+  main {
+    margin-top: 1rem;
+  }
+  .container-projects {
+    width: 30%;
+  }
+  .contact-info {
+    width: 100%;
+  }
+
 }
